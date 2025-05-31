@@ -1,0 +1,28 @@
+{
+  "name": "winthor-api-wta",
+  "version": "1.0.0",
+  "description": "Pacote Integração com API do WTA do ERP Winthor",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "winthor",
+    "wta",
+    "erp",
+    "api",
+    "totvs"
+  ],
+  "author": "José Tairone Morais",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "axios-mock-adapter": "^2.1.0",
+    "jest": "^29.7.0"
+  }
+}

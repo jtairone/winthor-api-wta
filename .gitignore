@@ -1,0 +1,6 @@
+node_modules
+*-lock.json
+jest.config.js
+validaClass.js
+types.d.ts
+coverage
