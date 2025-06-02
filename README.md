@@ -123,6 +123,41 @@ Retorna XML em formato String ou Base64.
 ```
 **Só precisa informar o número do pedido ou número da transação de venda não precisa informar os dois!
 
+
+## `cadastrarAtualizarCliente(params)`
+**Descrição:**  
+Cadastra ou atualiza um cliente. Se o CNPJ já existir, os dados serão atualizados.  
+
+**Parâmetros críticos:**  
+| Parâmetro | Tipo | Obrigatório? |  
+|-----------|------|--------------|  
+| `CNPJ` | `string` (18 chars) | ✅ Sim |  
+| `CODIGOATIVIDADE` | `number` | ✅ Sim |  
+| `NOMECLIENTE` | `string` (60 chars) | ✅ Sim |  
+| `INSCRICAOESTADUAL` | `string` (15 chars) | ✅ Sim (ou "ISENTO") |  
+| `ENDERECOCOBRANCA` | `string` (40 chars) | ✅ Sim |  
+| `CEPCOBRANCA` | `string` (9 chars) | ✅ Sim |  
+| `BAIRROCOMERCIAL` | `string` (40 chars) | ✅ Sim |  
+| `CODIGOCIDADE` | `number` | ✅ Sim |  
+| `ENDERECOCOMERCIAL` | `string` (40 chars) | ✅ Sim |  
+| `CEPCOMERCIAL` | `string` (9 chars) | ✅ Sim |  
+| `CODIGOPAIS` | `number` | ✅ Sim (default: 1058) |  
+| `EMAIL` | `string` (100 chars) | ✅ Sim  |  
+| `CODIGOPRACA` | `number` | ✅ Sim  |  
+| `CODIGOVENDEDOR` | `number` | ✅ Sim  |  
+
+**Exemplo:**  
+```javascript
+await cadastrarAtualizarCliente({
+  CNPJ: '12345678901234',
+  CODIGOATIVIDADE: 1,
+  NOMECLIENTE: 'Empresa Teste'
+});
+```
+
+
+
+
 ## 🔒 Boas Práticas
 Nunca armazene credenciais no código:
 Use arquivos .env (com dotenv).
