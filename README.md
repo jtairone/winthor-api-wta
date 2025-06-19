@@ -21,6 +21,8 @@ yarn add winthor-api-wta
 
 Configuração Inicial
 Configure suas credenciais (recomendado usar variáveis de ambiente ou arquivos de configuração como .env):
+
+* lembrar de informar host + porta e também se é http ou https host completo.
 ```javascript
 const Wint = require('winthor-api-wta');
 
