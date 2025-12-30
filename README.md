@@ -2,7 +2,7 @@
 
 **Cliente Node.js para integração com a API WTA do ERP Winthor**  
 
-[![npm version](https://img.shields.io/npm/v/winthor-wta-api)](https://www.npmjs.com/package/winthor-wta-api)  
+[![npm version](https://img.shields.io/npm/v/winthor-api-wta)](https://www.npmjs.com/package/winthor-api-wta)  
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)  
 
 Biblioteca para conexão e consumo da API WTA do Winthor (TOTVS), facilitando operações como consulta de clientes, produtos, pedidos e outros recursos.  
