@@ -1,6 +1,6 @@
 {
   "name": "winthor-api-wta",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Pacote Integração com API do WTA do ERP Winthor",
   "main": "lib/index.js",
   "scripts": {
